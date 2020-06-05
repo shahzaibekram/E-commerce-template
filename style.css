@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.nav-item a{
+    font-weight: 550;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: sans-serif;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.cart{
+    color: orange;
+}
+.logo{
+    margin-left: 20px;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255) !important;
+}
+/* *************SLider************** */
+
+.outer-div{
+    height: 350px;
+    overflow: hidden;
+}
+.inner-div1{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease;
+    background-image: url(./images/black\ and\ white\ man.jpeg);
+}
+.inner-div1:hover{
+    transform: scale(1.2);
+}
+
+.inner-div2{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease;
+    background-image: url(./images/expo.JPG);
+}
+.inner-div2:hover{
+    transform: scale(1.2);
+}
+.zoom-box-text {
+    text-align: center;
+    line-height: 300px;
+    color: white;
+    opacity: 0.6;
+}
+a{
+    text-decoration: none;
+}
+
+/* ***********************New Arrivals************************** */
+
+.newArrivals{
+    margin-top: 50px !important;
+}
+.card{
+    width: 350px;
+    margin-bottom: 50px;
+}
+.card img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+
+}
+.card-text{
+    font-weight: bold;
+    color: grey;
+}
+.btn-primary{
+    width: 100%;
+    background-color: orangered !important;
+}
+.heading{
+    margin: 50px;
+}
+
+/* *****************Single Product*********** */
+
+.single-product img{
+    width: 500px;
+    height: 500px;
+}
+.sizes{
+    display: block;
+    width: 100%;
+    align-items: center;
+}
+.single-product input{
+    border: 1px solid #ccc;
+    font-weight: bold;
+    height: 33px;
+    text-align: center;
+    width: 30px;
+}
+.single-product .btn{
+    border: 1px;
+    text-align: center;
+    width: 150px;
+    margin-left: 20px;
+}
+.single-product .price{
+    color: grey;
+    font-weight: bold;
+}
+.single-product label, h2{
+    color: black;
+}
+@media screen and (max-width: 750px){
+    .single-product{
+        width: 100%;
+    }
+}
+
+/* **********product description******** */
+
+.product-description h6, p{
+    color: black;
+    margin-top: 50px;
+}
+
+
+.boys img{
+    /* margin-right: 210px; */
+    margin-top: 20px;
+}
+@media screen and (max-width: 400px){
+    .boys img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1024px){
+    .boys img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1500px){
+    .boys img{
+        width: 100%;
+    }
+}
+
+
+
+
+/* **************Footer*************** */
+.footer{
+    margin-top: 50px;
+    background-color: rgb(46, 45, 45);
+    color: white;
+}
+.footer p{
+    color: white;
+}
+.footer h1{
+    font-size: 24px;
+    margin: 25px 0;
+}
+.footer-image img{
+    width: 150px !important;
+}
+.copyright{
+    margin-bottom: 0px;
+}
+.footer hr{
+    background-color: white;
+}
+
+/* ************************Women Arrivals**************** */
+.women-arrivals .card{
+    width: 250px;
+    margin-top: 50px;
+}
+.men .card{
+    width: 250px;
+    margin-top: 50px;
+}
+
+/* *****************Sign Up login************* */
+
+.textbox{
+    width: 600px;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 12px 0;
+}
+.login-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.login-box h1{
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    .login-box{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px){
+    .textbox{
+        width: 100%;
+    }
+}
+.login-box .btn{
+    background-color: rgb(56, 83, 90) !important;
+    width: 100%;
+}
+.login-box .acc{
+    margin-top: 15px;
+    cursor: pointer;
+}
+.login-box .acc a{
+    color: black;
+}
+/* ****About********* */
+
+.about{
+    margin-top: 50px;
+    line-height: 50px;
+}
+.about h5{
+    font-size: 50px;
+    color: black;
+}
+
+/* *****pagination******** */
+
+.pagination {
+    justify-content: center;
+ }
+
