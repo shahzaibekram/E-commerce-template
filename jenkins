@@ -1,0 +1,25 @@
+# sudo docker build -t html-web .
+# sudo docker run -d -p 7500:80 html-web
+# sudo npm install -g vercel
+# sudo vercel deploy --prod --token {token}
+
+#!/bin/bash
+
+# Build Docker image
+sudo docker build -t html-web .
+
+# Login to Docker Hub (or other Docker registry)
+sudo docker login -u {username} -p {password}
+
+# Push Docker image to registry
+sudo docker tag html-web shahzaib2468/html-web
+sudo docker push shahzaib2468/html-web
+
+# Deploy Docker image to Vercel
+#sudo vercel deploy --prod --token {token} 
+#--docker shahzaib2468/html-web
+
+vercel --confirm -t "{token}" --prod
+
+
+
