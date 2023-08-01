@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  web:
+    image: shahzaib2468/html-fashion-web
+    ports:
+      - "80:80"
+    volumes:
+      - ./html:/usr/share/nginx/html
